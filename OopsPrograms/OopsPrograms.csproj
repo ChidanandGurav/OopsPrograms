@@ -10,7 +10,7 @@
     <AssemblyName>OopsPrograms</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopsPrograms.String.Totalcountofword</StartupObject>
+    <StartupObject>OopsPrograms.String.ReverseStr</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -74,12 +74,33 @@
     <Compile Include="Array\SearchNumber.cs" />
     <Compile Include="Array\UniqueNumber.cs" />
     <Compile Include="Bank.cs" />
+    <Compile Include="Collection\ClassHashtable.cs" />
+    <Compile Include="Collection\ClassIComparer.cs" />
+    <Compile Include="Collection\ClassSortedList.cs" />
+    <Compile Include="Collection\ClassArrayList.cs" />
+    <Compile Include="Collection\ClassStack.cs" />
+    <Compile Include="Collection\Classqueue.cs" />
+    <Compile Include="Collection\GDictionary.cs" />
+    <Compile Include="Collection\GHashset.cs" />
+    <Compile Include="Collection\GList.cs" />
+    <Compile Include="Collection\GQueue.cs" />
+    <Compile Include="Collection\GStack.cs" />
+    <Compile Include="Collection\IComparable_Product.cs" />
+    <Compile Include="Collection\IEnumerableAndIENumerator.cs" />
+    <Compile Include="Collection\IGicomparer.cs" />
+    <Compile Include="Delegate And Events\Program_Evnt.cs" />
+    <Compile Include="Delegate And Events\Program_Evnt1.cs" />
+    <Compile Include="Delegate And Events\User.cs" />
     <Compile Include="Emp.cs" />
     <Compile Include="Books.cs" />
     <Compile Include="Date.cs" />
     <Compile Include="DefaultOptional_Car.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Enum\EnumEmp.cs" />
+    <Compile Include="Exception_Handling\Alphabetstring.cs" />
+    <Compile Include="Exception_Handling\Ex_HandlingName.cs" />
+    <Compile Include="Exception_Handling\NagativeValue.cs" />
+    <Compile Include="Exception_Handling\NameException.cs" />
     <Compile Include="Inheritance\Area_Overload.cs" />
     <Compile Include="Inheritance\EmployeeOverriding.cs" />
     <Compile Include="Inheritance\Icustomer.cs" />
@@ -100,11 +121,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Static.cs" />
     <Compile Include="Static_Product.cs" />
+    <Compile Include="String\AlphabetSpecialcharDigit.cs" />
+    <Compile Include="String\AnagramOrNot.cs" />
+    <Compile Include="String\CntVowelsAndConst.cs" />
     <Compile Include="String\CountIndex.cs" />
+    <Compile Include="String\Frequency.cs" />
     <Compile Include="String\Index.cs" />
+    <Compile Include="String\DuplicateWord.cs" />
+    <Compile Include="String\LongestWord.cs" />
+    <Compile Include="String\MailCheck.cs" />
+    <Compile Include="String\Reverse.cs" />
+    <Compile Include="String\ReverseStr.cs" />
+    <Compile Include="String\ReversStr1 .cs" />
     <Compile Include="String\split.cs" />
     <Compile Include="String\STR.cs" />
     <Compile Include="String\STR1.cs" />
+    <Compile Include="String\StrBuilder.cs" />
+    <Compile Include="String\ToggleCase.cs" />
     <Compile Include="String\Totalcountofword.cs" />
     <Compile Include="String\Trim.cs" />
     <Compile Include="Structure\Screen.cs" />
